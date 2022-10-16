@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 100px;
+	background: #4285f4;
+}
+.container{
+	background: #fff;
+	width: 400px;
+	border-radius: 8px;
+}
+.container h2{
+	font-weight: 600;
+	font-size: 1.31rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	border-bottom: 1px solid #d4dbe5;
+}
+.wrapper{
+
+	margin: 1.2rem 1.7rem;
+}
+
+.input-box input{
+	width: 100%;
+	height: 45px;
+	color: #212121;
+	background: none;
+	font-size: 1rem;
+	font-weight: 700;
+	letter-spacing: 1.4px;
+	border-radius: 4px;
+	border: 1px solid #aaa;
+	padding: 0 2.85rem 0 1rem;
+}
+
+.wrapper .input-box{
+	position: relative;
+}
+.input-box span{
+	position: absolute;
+	right: 13px;
+	top: 15px;
+	color: gray;
+	cursor: pointer;
+	font-weight: 700;
+	lighting-color: 50px;
+}
+.wrapper .pass-indicator{
+	width: 100%;
+	height: 3px;
+	background: #dfdfdf;
+	margin-top: 1rem;
+	border-radius: 55px;
+	position: relative;
+}
+.pass-indicator::before{
+	position: absolute;
+	content: " ";
+	height: 100%;
+	width: 50%;
+	transition: width 0.3s ease;
+}
+.pass-indicator#weak::before{
+	background: #E64A4A;
+	width: 20%;
+}
+
+.pass-indicator#medium::before{
+	background: #f1c80b;
+	width: 50%;
+}
+
+.pass-indicator#strong::before{
+	background: #4285f4;
+	width: 100%;
+}
+.wrapper .pass-length{
+	margin: 1.56rem 0 1.25rem;
+}
+.pass-length .details{
+	display: flex;
+	justify-content: space-between;
+}
+.pass-length input{
+	width: 100%;
+	height: 5px;
+}
+.pass-settings .options{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	flex-wrap: wrap;
+	margin-top: 1rem;
+	padding-left: 10%;
+}
+.pass-settings .options .option{
+	display: flex;
+	margin-bottom: 1rem;
+	width: calc(100% / 2);
+	font-size: 12px;
+	cursor: pointer;
+}
+.options .option:first-child{
+	pointer-events: none;
+}
+.options .option:first-child input{
+	opacity: 0.7;
+}
+.options .option label{
+	cursor: pointer;
+	padding-left: 10px;
+}
+.wrapper .generate-btn{
+	width: 100%;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: #4285f4;
+	font-size: 0.8rem;
+	padding-top:0.7rem;
+	padding-bottom:0.7rem;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin: 0.94rem 0 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
