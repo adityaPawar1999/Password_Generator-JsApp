@@ -189,8 +189,4 @@ body{
 				</ul>
 			</div>
 			<button  class="generate-btn">Generate PAssword</button>
-		</div>
-	</div>
-
-</body>
-</html>
+	
