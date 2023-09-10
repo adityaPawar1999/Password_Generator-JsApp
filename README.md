@@ -5,6 +5,8 @@ Random Password Generator is a JavaScript project that can generate strong and u
     <title>
   </head>
       <body>
-        <a href="/Random Password Generator/index.html">click here</a>
+        <a href="Random Password Generator/index.html">click here</a>
+        <a href="Random-Password-Generator-App/Random Password Generator/index.html">click here</a>
+        <a href="index.html">click here</a>
       </body>
 </html>
